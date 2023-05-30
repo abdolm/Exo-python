@@ -63,13 +63,116 @@
 # km = miles * 1.6
 # print(f"{miles} miles est équivalent à {km} km")
 
-number = int(input("Entrez un nombre "))
+# number = int(input("Entrez un nombre "))
 
-if(number % 2 != 0):
-    # code qui s'exécute si nbUtilisateur est plus petit que 0
-    print("Votre nombre est IMPAIRE")
-else:
-    # sinon, c'est ce code qui s'exécute
-    print("Votre nombre est PAIRE !")
+# if(number % 2 != 0):
+#     # code qui s'exécute si nbUtilisateur est plus petit que 0
+#     print("Votre nombre est IMPAIRE")
+# else:
+#     # sinon, c'est ce code qui s'exécute
+#     print("Votre nombre est PAIRE !")
 
 
+# nb1 = int(input("Entrez le premier nombre "))
+# nb2 = int(input("Entrez le deuxieme nombre "))
+# nb3 = int(input("Entrez le troixieme nombre "))
+# if nb1 > nb2 and nb1 > nb3:
+#     # si nb1 > nb2 et nb2 > nb3 alors on exécute ce code
+#     print("nb1 est le nombre le plus grand !")
+# elif nb2 > nb1 and nb2 > nb3:
+#     # sinon, si nb1 < nb2 et nb2 < nb3 alors on exécute ce code
+#     print("nb2 est le nombre le plus grand !")
+# else:
+#     # sinon, on exécute celui-ci
+#     print("nb3 est le nombre le plus grand !")
+
+
+# nb = int(input("Entrez un nombre entier : "))
+
+# def my_function(nombre):
+#     """fonction qui verifie si un nombre est paire ou impaire
+
+#     Args:
+#         nombre (int): le nombre que l'on souhaite verifier
+#     """
+#     if nombre % 2 == 0:
+#         print("le nombre est pair")
+#     else:
+#         print("Le nombre est impair")
+
+
+# my_function(nb)
+
+# nb = int(input("Entrez un nombre entier : "))
+
+# def est_pair(nombre:int)-> bool:
+#     """fonction qui verifie si un nombre est paire ou impaire
+
+#     Args:
+#         nombre (int): le nombre que l'on souhaite verifier.
+
+#     Returns:
+#         The return value. True for success, False otherwise.
+
+#     """
+#     if nombre % 2 == 0:
+#         return True
+#     else:
+#         return False
+
+
+# est_pair(nb)
+
+# nb1 = int(input("Entrez le premier nombre "))
+# nb2 = int(input("Entrez le deuxieme nombre "))
+# nb3 = int(input("Entrez le troixieme nombre "))
+# def lepluspetit(nombre1:int, nombre2:int, nombre3:int)-> int:
+#  """fonction qui trouve le petit nombre
+
+# #     Args:
+# #         nb1,nb2,nb3 (int): les nombre que l'on souhaite comparer.
+
+# #     Returns:
+# #         le plus petit nombre
+# #     """
+#  if nombre1 < nombre2 and nombre1 < nombre3:
+#     # si nb1 < nb2 et nb2 < nb3 alors on exécute ce code
+#     print(f"{nombre1} est le nombre le plus petit !")
+#  elif nombre2 < nombre1 and nombre2 < nombre3:
+#     # sinon, si nb2 < nb1 et nb2 < nb3 alors on exécute ce code
+#     print(f"{nombre2} est le nombre le plus petit !")
+#  else:
+#     # sinon, on exécute celui-ci
+#     print(f"{nombre3} est le nombre le plus petit !")
+
+# lepluspetit(nb1,nb2,nb3)
+
+# def absolu(number1, number2):
+#      """fonction donne le nombre absolu de la multiplication
+
+#     #     Args:
+#     #         number1,number2: les nombres dont on souhaite obtenir la valeur absolu
+#     #     Returns:
+#     #         la valeur absolu de la multiplication
+#     #     """
+#      if number1 < 0:
+#             number1 = -number1
+#      if number2 < 0:
+#             number2 = -number2
+#      return number1 * number2      
+
+# print(absolu(10,-5))
+
+def moyenne(nb1,nb2,nb3):
+    """fonction qui donne la moyenne des trois nombres
+
+        Args:
+            nb1,nb2,nb3: les nombres dont on souhaite obtenir la moyenne
+        Returns:
+            la moyenne
+    """
+    list = [nb1,nb2,nb3]
+    resultat = sum(list)
+    return resultat/3
+
+print(moyenne(20,10,15))
