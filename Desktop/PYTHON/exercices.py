@@ -163,16 +163,16 @@
 
 # print(absolu(10,-5))
 
-def moyenne(nb1,nb2,nb3):
-    """fonction qui donne la moyenne des trois nombres
+# def moyenne(nb1,nb2,nb3):
+#     """fonction qui donne la moyenne des trois nombres
 
-        Args:
-            nb1,nb2,nb3: les nombres dont on souhaite obtenir la moyenne
-        Returns:
-            la moyenne
-    """
-    list = [nb1,nb2,nb3]
-    resultat = sum(list)
-    return resultat/3
+#         Args:
+#             nb1,nb2,nb3: les nombres dont on souhaite obtenir la moyenne
+#         Returns:
+#             la moyenne
+#     """
+#     list = [nb1,nb2,nb3]
+#     resultat = sum(list)
+#     return resultat/3
 
-print(moyenne(20,10,15))
+# print(moyenne(20,10,15))
