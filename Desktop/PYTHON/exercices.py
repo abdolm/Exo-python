@@ -176,3 +176,39 @@
 #     return resultat/3
 
 # print(moyenne(20,10,15))
+# def triangle_motif(n,motif) :   
+#     for i in range (1,n+1):
+#         s=''
+#         for j in range(1,i+1):
+#             s+=motif
+#         print(s)
+# triangle_motif(7,"#")
+
+# def somme(nb1,nb2,nb3,nb4) :
+#     list = [nb1,nb2,nb3,nb4]
+#     resultat = sum(list)
+#     print (resultat)
+
+
+# somme(10 ,45, 20, 10)
+# def boucle4():
+#     for i in range(1,101):
+#         if i % 3 == 0:
+#             print("Fizz")
+
+#         elif i % 5 == 0:
+#             print("Fuzz")
+        
+#         else: 
+#             print(i)
+
+# boucle4()
+
+def inverse(liste):
+    # reverse the order of list elements
+    liste.reverse()
+
+
+    print('Reversed List:', liste)
+prime_numbers = [2, 6, 5, 18]
+inverse(prime_numbers)
